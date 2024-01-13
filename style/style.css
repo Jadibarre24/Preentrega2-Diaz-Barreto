@@ -68,6 +68,26 @@ h2 {
         font-style: italic;
         font-weight: bolder;
 }
+.card-container {
+        background-color: #e5f8e5;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap: wrap;
+}
+.card{
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 16px;
+        margin: 16px;
+}
+.card h4 {
+        width: 400px;
+}
+.card img { 
+        width: 190px;
+}
 /* tamaño de letra del formulario */
 .base{
         font-size: 30px;
