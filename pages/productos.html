@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <title>Servicios.Agafproducciones</title>
 </head>
 <body>
     <header>
-        <section class="start">
-            <img class="logo1" src="../image/Consola.JPG" alt="">
-            <h1> 
-                Agafproducciones    
-            </h1>
-        </section>
-         <!--primer menu de navegacion este da paso a las otras ventanas atraves de links-->
-        <nav>
-            <section id="menu">
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="/pages/nosotros.html">Quienes somos</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="/pages/productos.html"> Servicios</a>
-                    </li>
-                    <li>
-                         <a target="_blank" href="/pages/galeria.html">Galeria</a> 
-                    </li>    
-                    <li>
-                        <a target="_blank" href="/pages/base.html">Contacto</a>
-                    </li>
-                </ul>
-            </section>
-        </nav>    
+        <nav class="navbar" style="background-color: #e3e3e3;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/image/Consola.JPG" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Agafproducciones
+                </a>
+                <button class="navbar-toggler" type="button"            data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"       id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/base.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <!-- menu de navegacion  de los productos y servicios de la empresa -->
     <main>
-          <nav>
+        <nav>
                     <h2>
                         Productos 
                     </h2>
@@ -57,18 +60,18 @@
                                     <a href="../pages/base.html">Diseño de sistemas de audio. </a>
                             </li>
                         </ul>
-                    </section>
-            </nav>  
-    </main>
-        <footer>   
-            <section class="icons"> 
+        </nav>  
+     </main>
+    <footer>   
+        <section class="icons"> 
             <img src="../image/icons/facebook.png" alt="">
             <img src="../image/icons/instagram.png" alt="">
             <img src="../image/icons/twitter.png" alt="">
-            </section>
-            <p>
-                copyrigth Agafproducciones - todos los derechos reservados.   
-            </p>
-        </footer>
+        </section>
+        <p>
+            copyrigth Agafproducciones - todos los derechos reservados.   
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
