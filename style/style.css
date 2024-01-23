@@ -13,6 +13,16 @@ h2 {
         font-weight: bolder;
         margin: 35px;
 }
+.navbar-logo img {
+        width: 30px;
+        height: 24px    
+}
+.navbar-logo p {
+        display: inline-block;
+        margin: 10px;
+        font-weight: bolder;
+        text-align: center;
+}
 /* contenido de la pagina inicial */
 .logo-container {
         background-color: #e5f8e5;
@@ -53,18 +63,20 @@ h2 {
         background-color: #ece2c6;
 }
 }
- .service li {
-        list-style-type: none;
-        font-size: 25px;
-        font-style: italic;
-        font-weight: bolder;
+@media(min-width:501px){
+        .card-info{
+        align-items: stretch;
+        }
 }
 .card-container {
         background-color: #e5f8e5;
         display:flex;
-        align-items:center;
-        justify-content:space-between;
+        align-items:self-start;
+        justify-content:space-around;
         flex-wrap: wrap;
+        padding: 10px;
+        margin: 8px;
+        width: 500px;
 }
 .card{
         width: 435px;
@@ -81,17 +93,14 @@ a{
         color: black
 
 }
+.card-info img {
+        width: 450px;
+}
+.card-info p {
+        width: 1fr;
+}
 /* tamaño de letra del formulario */
-.base{
-        font-size: 30px;
-        font-weight: 600;
-        font-style: normal;
-}
-.base input{
-        font-size: 25px;
-        font-weight: 600;
-        font-style: normal;
-}
+
 /*contenido del footer  */
 .icons img {
         width: 25px;
