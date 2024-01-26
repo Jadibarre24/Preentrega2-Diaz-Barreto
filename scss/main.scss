@@ -1,0 +1,13 @@
+//base
+@import "partials/base/reset.scss";
+@import "partials/base/tipografia.scss";
+
+//utilities
+@import "partials/utilities/maps.scss";
+@import "partials/utilities/mixins";
+@import "partials/utilities/variables";
+
+//components
+@import "partials/componets/buttons.scss";
+@import "partials/componets/cards";
+@import "partials/componets/navbar";

@@ -1,115 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron&family=Roboto+Serif:opsz@8..144&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron&family=Roboto+Serif:opsz@8..144&display=swap");
 * {
-        margin: 0;
-        padding: 0;
+  padding: 0;
+  margin: 0;
 }
-body {
-        background-color:lightgray ;
-        font-family: 'roboto';
-}  
-h2 {
-        font-style: oblique;
-        font-size: 45px;
-        font-weight: bolder;
-        margin: 35px;
-}
-.container-fluid {
-        background-color:lightslategray ;
-        border-radius: 5px;
-        border: 1px groove rgb(179, 180, 181)
-}
-.navbar-logo img {
-        width: 30px;
-        height: 24px    
-}
-.navbar-logo p {
-        display: inline-block;
-        margin: 10px;
-        font-weight: bolder;
-        text-align: center;
-}
-/* contenido de la pagina inicial */
-.logo-container {
-        background-color: lightgray;
-        display:flex;
-        align-items:self-start;
-        justify-content:space-around;
-        flex-wrap: wrap;
-}
-.logo-container  {
-        width: 1fr;
-        padding: 16px;
-        margin: 8px;
-}
-.card img {
-        width: 1fr;
-        display: flex;
-        align-items: center;
-}
-.card-text p {
-        width: 350px;
-        margin: 20px;
-        padding: 8px;
-        text-align: justify;
-}
-/* media qwery */
-@media(max-width:436px){
-       .card {
-        background-color: rgb(13, 247, 247);
-        } 
-}
-@media( min-width:437px){
-        .card {
-        background-color: darkgray;
-        }
-}
-@media(min-width:900px){
-        .card {
-        background-color: #ece2c6;
-}
-}
-@media(min-width:501px){
-        .card-container {
-        display: inline-block;
-        }
-}
-.card-container {
-        background-color: lightgray;
-        display:inline-block;
-        align-items:self-start;
-        justify-content:space-between;
-        flex-wrap: wrap;
-        padding: 10px;
-        margin: 8px;
-        width: 500px;
-}
-.card{
-        width: 435px;
-        border: 1px solid black;
-        border-radius: 6px;
-        padding: 16px;
-        margin: 16px;
-}
-.card h4 {
-        width: 400px;
-}
-a{
-        text-decoration: none;
-        color: black
 
+.card {
+  width: 1fr;
+  border: 1px solid black;
+  border-radius: 6px;
 }
-.card-info img {
-        width: 450px;
-}
-.card-info p {
-        width: 1fr;
-}
-/* tamaño de letra del formulario */
 
-/*contenido del footer  */
-.icons img {
-        width: 25px;
-}
-footer p { 
-        text-align: center;
-}
+/*# sourceMappingURL=style.css.map */
