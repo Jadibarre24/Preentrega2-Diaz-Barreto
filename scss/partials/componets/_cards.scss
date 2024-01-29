@@ -1,6 +1,36 @@
+
+.card-container {
+    @include flex ( row,space-around,center)
+}
 .card{
-    @include card (1fr,px,px,);@include into(px,px)   
+    @include card (450px,px,px,);@include into(px,px);
+    .card img {
+        width: 1fr;
+        display: flex;
+        align-items: center;
+};  .card-text p {
+        width: 350px;
+        margin: 20px;
+        padding: 8px;
+        text-align: justify;
+}   
 }
 .card-container{
-    @include flex(row,space-around,center);@include into(px,px)
+    @include flex(row,space-around,center);@include into(px,px);
+    @include card (350px,px,px); @include into( px,px)
+}
+.card-item  {
+    @include card(400px,px,px,);@include into (px,px,);img {
+        width: 450px; p{
+            width: 1fr
+        }
+    }
+}
+.logo-container:hover{
+    @include flex ( row,space-around,center);width: 1fr;padding:16px;margin: 8px; 
+    .card-img-center img{
+       width: 450px,
+       height 350px,
+    }
+
 }
