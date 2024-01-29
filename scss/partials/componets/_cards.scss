@@ -1,3 +1,13 @@
+
+.card-container {
+    @include flex ( row,space-around,center)
+}
 .card{
-    @include card (1fr,px,px) 
+    @include card (350px,px,px); @include into( px,px)
+}
+.card-item  {
+    @include card(400px,px,px,);@include into (px,px,)
+}
+.logo-container{
+    @include flex ( row,space-around,center)
 }
