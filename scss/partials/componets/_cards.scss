@@ -1,3 +1,6 @@
 .card{
-    @include card (1fr,px,px) 
+    @include card (1fr,px,px,);@include into(px,px)   
+}
+.card-container{
+    @include flex(row,space-around,center);@include into(px,px)
 }
