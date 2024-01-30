@@ -18,34 +18,27 @@
 .card-container{
     @include flex(row,space-around,center);@include into(px,px); @include into( px,px);flex-wrap: wrap
 }
-.card-item  {
+.card-item {
     @include card(450px,px,px,);@include into (px,px,);
-    @include flex(column,center,center); img {
-        width: 430px; p{
+    @include flex(column,center,center); background-color:map-get($colores, darkgray ); img {
+        width: 430px;
+        height: 430px;} 
+         p{
             width: 1fr
             text-align center
         }
-    }
-}
-.logo-container{
+ }
+
+.logo-container {
     @include flex ( row,space-around,center);width: 1fr;padding:16px;margin: 8px; 
     .card-img-center img{
        width: 450px,
        height 350px,
     }
 }
-.carousel-inner img { 
-    width: 100%;
-    align-items: center;}    
-.carousel-caption{
+.card-item:active {
     position:initial ;
-    background-color: darkgray;
-    display: inline-block;
-    width: 1fr;
-}
-.card-item:active{
-    position:initial ;
-    background-color: darkgray;
+    background-color:map-get($colores ,base );
     display: flex;
     width: 1fr;
-}
+ }

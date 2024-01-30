@@ -1,0 +1,6 @@
+.button{
+    @include card(120px,solid,px); .button:hover{
+        color: black;
+        background-color: map-get($colores ,gray );
+    }
+}

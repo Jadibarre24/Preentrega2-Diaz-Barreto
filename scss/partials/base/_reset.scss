@@ -26,4 +26,9 @@ body {
      display: inline-block;
      }
 }
-
+@media ( hover:hover ){
+     .button:hover{
+          color: gray;
+     background-color:#ece2c6
+     }
+}
