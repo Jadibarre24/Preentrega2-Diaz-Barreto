@@ -1,6 +1,6 @@
 
 .card-container {
-    @include flex ( row,space-around,center)
+    @include flex ( column,space-around,center)
 }
 .card{
     @include card (450px,px,px,);@include into(px,px);
@@ -16,21 +16,36 @@
 }   
 }
 .card-container{
-    @include flex(row,space-around,center);@include into(px,px);
-    @include card (350px,px,px); @include into( px,px)
+    @include flex(row,space-around,center);@include into(px,px); @include into( px,px);flex-wrap: wrap
 }
 .card-item  {
-    @include card(400px,px,px,);@include into (px,px,);img {
-        width: 450px; p{
+    @include card(450px,px,px,);@include into (px,px,);
+    @include flex(column,center,center); img {
+        width: 430px; p{
             width: 1fr
+            text-align center
         }
     }
 }
-.logo-container:hover{
+.logo-container{
     @include flex ( row,space-around,center);width: 1fr;padding:16px;margin: 8px; 
     .card-img-center img{
        width: 450px,
        height 350px,
     }
-
+}
+.carousel-inner img { 
+    width: 100%;
+    align-items: center;}    
+.carousel-caption{
+    position:initial ;
+    background-color: darkgray;
+    display: inline-block;
+    width: 1fr;
+}
+.card-item:active{
+    position:initial ;
+    background-color: darkgray;
+    display: flex;
+    width: 1fr;
 }
