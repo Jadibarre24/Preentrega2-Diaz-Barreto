@@ -82,7 +82,7 @@ body {
 }
 
 .card-item {
-  width: 450px;
+  width: 400px;
   border: 1px solid black;
   border-radius: 6px;
   padding: 16px;
@@ -94,8 +94,8 @@ body {
   background-color: darkgray;
 }
 .card-item img {
-  width: 430px;
-  height: 430px;
+  width: 330px;
+  height: 330px;
 }
 .card-item p {
   width: 1fr text-align center;
@@ -161,6 +161,23 @@ h2 {
 
 footer p {
   text-align: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  align-items: center;
+}
+
+.carousel-caption {
+  position: initial;
+  background-color: darkgray;
+  display: inline-block;
+  width: 1fr;
+}
+
+.accordion-body a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -19,10 +19,10 @@
     @include flex(row,space-around,center);@include into(px,px); @include into( px,px);flex-wrap: wrap
 }
 .card-item {
-    @include card(450px,px,px,);@include into (px,px,);
+    @include card(400px,px,px,);@include into (px,px,);
     @include flex(column,center,center); background-color:map-get($colores, darkgray ); img {
-        width: 430px;
-        height: 430px;} 
+        width: 330px;
+        height: 330px;} 
          p{
             width: 1fr
             text-align center
