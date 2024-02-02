@@ -3,8 +3,9 @@
                     text-align: center;
     }
 }
-footer p { 
-            text-align: center;
+footer p {
+    color: map-get($colores , none ); 
+                 text-align: center;
     }
     
     

@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: darkslategray;
+  background-image: url("../image/fondo.jpg");
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (max-width: 436px) {
@@ -116,36 +120,45 @@ body {
 
 .card-item:active {
   position: initial;
-  background-color: lightslategray;
   display: flex;
   width: 1fr;
 }
 
 .container-fluid {
-  background-color: lightslategray;
+  color: #ece2c6;
   border-radius: 5px;
   border: 1px groove rgb(179, 180, 181);
 }
-.container-fluid .navbar-logo {
-  border: 1px groove gray;
+.container-fluid .navbar-toggler {
+  background-color: #ece2c6;
+}
+.container-fluid .navbar-toggler-icon {
+  color: rgba(0, 0, 0, 0);
 }
 .container-fluid .navbar-logo img {
   width: 40px;
-  height: 24px;
+  height: 40px;
 }
 .container-fluid .navbar-logo p {
+  color: #ece2c6;
   text-align: center;
   display: inline-block;
   margin: 10px;
   font-weight: bolder;
   text-align: center;
-}
-.container-fluid .navbar-logo .nav-link a:hover {
-  color: antiquewhite;
-  background-color: black;
+  font-size: 32px;
 }
 
-h2 {
+a.nav {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1 {
+  color: #ece2c6;
   font-style: oblique;
   font-size: 45px;
   font-weight: bolder;
@@ -160,6 +173,7 @@ h2 {
 }
 
 footer p {
+  color: #ece2c6;
   text-align: center;
 }
 
@@ -178,6 +192,19 @@ footer p {
 .accordion-body a {
   text-decoration: none;
   color: black;
+}
+
+.form {
+  padding: 16px;
+  margin: 16px;
+}
+
+.form-label {
+  color: #ece2c6;
+}
+
+.form-check-label {
+  color: #ece2c6;
 }
 
 /*# sourceMappingURL=style.css.map */

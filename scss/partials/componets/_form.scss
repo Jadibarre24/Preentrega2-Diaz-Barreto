@@ -1,0 +1,9 @@
+.form {
+    @include into(px,px)
+}
+.form-label   { 
+    color: map-get($colores , none );
+}
+.form-check-label{
+    color: map-get($colores, none );
+}
