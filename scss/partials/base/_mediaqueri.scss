@@ -1,0 +1,33 @@
+@media(max-width:436px){
+    .card {
+     background-color: rgb(13, 247, 247)};
+    .container-fluid{
+        width: 80%
+    } .logo-navbar img {
+        display: none};
+        p {
+        font-size: 100%;
+     } 
+}
+@media( min-width:437px){
+     .card {
+     background-color: darkgray;
+     }
+}
+@media(min-width:900px){
+     .card {
+     background-color: #ece2c6;
+     
+}
+}
+@media(min-width:501px){
+     .card-container {
+     display: inline-block;
+     }
+}
+@media ( hover:hover ){
+     .button:hover{
+          color: gray;
+     background-color:#ece2c6
+     }
+}

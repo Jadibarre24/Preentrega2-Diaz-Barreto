@@ -16,6 +16,15 @@ body {
   .card {
     background-color: rgb(13, 247, 247);
   }
+  .container-fluid {
+    width: 80%;
+  }
+  .logo-navbar img {
+    display: none;
+  }
+  p {
+    font-size: 100%;
+  }
 }
 @media (min-width: 437px) {
   .card {
@@ -95,7 +104,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkgray;
+  background-color: lightslategray;
 }
 .card-item img {
   width: 330px;
@@ -163,6 +172,7 @@ h1 {
   font-size: 45px;
   font-weight: bolder;
   margin: 35px;
+  text-align: center;
 }
 
 .icons img {

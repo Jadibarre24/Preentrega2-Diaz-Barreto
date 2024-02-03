@@ -20,7 +20,7 @@
 }
 .card-item {
     @include card(400px,px,px,);@include into (px,px,);
-    @include flex(column,center,center); background-color:map-get($colores, darkgray ); img {
+    @include flex(column,center,center); background-color: map-get($colores , fondo ) ; img {
         width: 330px;
         height: 330px;} 
          p{
