@@ -1,3 +1,10 @@
+.accordion {
+        background-color: map-get($colores , nav );border:0.5 solid;
+        .accordion-item {
+                background-color: map-get($colores , nav );
+                
+        }
+}
 .accordion-body a{
             text-decoration: none;
             color: black;

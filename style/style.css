@@ -5,11 +5,7 @@
 }
 
 body {
-  background-image: url("../image/fondo.jpg");
-  background-position: initial;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: gray;
 }
 
 @media (max-width: 436px) {
@@ -24,6 +20,9 @@ body {
   }
   p {
     font-size: 100%;
+  }
+  .logo-container {
+    display: block;
   }
 }
 @media (min-width: 437px) {
@@ -71,12 +70,21 @@ body {
   margin: 16px;
 }
 .card .card img {
-  width: 1fr;
+  width: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
-.card .card-text p {
-  width: 350px;
+.card .card-body {
+  width: 4400px;
+  height: 440px;
+}
+.card .card-text {
+  width: 330px;
+  height: 330px;
+}
+.card p {
+  width: 35px;
   margin: 20px;
   padding: 8px;
   text-align: justify;
@@ -189,7 +197,7 @@ footer p {
 
 .carousel-inner img {
   width: 100%;
-  align-items: center;
+  align-content: center;
 }
 
 .carousel-caption {
@@ -197,6 +205,18 @@ footer p {
   background-color: darkgray;
   display: inline-block;
   width: 1fr;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.accordion {
+  background-color: darkgray;
+  border: 0.5 solid;
+}
+.accordion .accordion-item {
+  background-color: darkgray;
 }
 
 .accordion-body a {

@@ -3,11 +3,15 @@
      background-color: rgb(13, 247, 247)};
     .container-fluid{
         width: 80%
-    } .logo-navbar img {
+    } 
+    .logo-navbar img {
         display: none};
         p {
         font-size: 100%;
      } 
+     .logo-container {
+        display: block;
+     }
 }
 @media( min-width:437px){
      .card {

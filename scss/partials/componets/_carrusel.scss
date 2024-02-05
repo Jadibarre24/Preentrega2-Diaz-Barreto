@@ -1,9 +1,12 @@
 .carousel-inner img { 
     width: 100%;
-    align-items: center;}    
+    align-content: center;}    
 .carousel-caption {
     position:initial ;
     background-color: darkgray;
     display: inline-block;
     width: 1fr;
+}
+.carousel-item{
+    height: 300px;
 }
