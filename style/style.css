@@ -15,6 +15,9 @@ body {
   .container-fluid {
     width: 80%;
   }
+  .video {
+    display: none;
+  }
   .logo-navbar img {
     display: none;
   }
@@ -23,6 +26,12 @@ body {
   }
   .logo-container {
     display: block;
+  }
+  body {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 437px) {
@@ -33,6 +42,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+  .grid-container {
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 900px) {
@@ -297,8 +309,15 @@ footer p {
 }
 
 .maps iframe {
-  height: 450px;
+  height: 400px;
   width: 90%;
+}
+
+h2 {
+  color: #ece2c6;
+  text-align: center;
+  font-size: 32px;
+  margin: 20px;
 }
 
 .grid-container {
@@ -340,12 +359,49 @@ a img {
 
 .grid-container-home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .row-home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  margin: 20px;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.col-5 {
+  justify-content: left;
+}
+
+.row-items {
+  display: flex;
+}
+
+.video {
+  height: 80%;
+  width: 80%;
+  align-content: center;
+  margin-left: 44px;
+  margin-top: 60x;
+}
+
+.redes {
+  display: flex;
+  align-content: center;
+}
+.redes h2 {
+  text-align: center;
+}
+
+.row-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

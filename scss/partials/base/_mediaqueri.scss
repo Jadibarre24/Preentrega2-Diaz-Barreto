@@ -3,7 +3,9 @@
      background-color: rgb(111, 116, 116)};
     .container-fluid{
         width: 80%
-    } 
+    }  .video {
+     display: none;
+}
     .logo-navbar img {
         display: none};
         p {
@@ -11,6 +13,12 @@
      } 
      .logo-container {
         display: block;
+     }
+     body{
+          flex-wrap: wrap;
+     }
+     .navbar{
+          flex-wrap: wrap;
      }
 }
 @media( min-width:437px){
@@ -21,14 +29,15 @@
           display: flex;
           flex-wrap: wrap;
           flex-direction: row;
-     }
+     } .grid-container{
+          flex-wrap: wrap;
+     } 
 }
 @media(min-width:900px){
      .card {
-     background-color: #ece2c6;
-     
+     background-color: #ece2c6;}
 }
-}
+
 @media(min-width:501px){
      .card-container {
      display: inline-block;
@@ -37,7 +46,7 @@
           display: flex;
           flex-wrap: wrap;
           flex-direction: row;
-     }
+     }     
 }
 @media ( hover:hover ){
      .button:hover{

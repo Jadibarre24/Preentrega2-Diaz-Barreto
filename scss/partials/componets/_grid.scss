@@ -33,9 +33,44 @@ a img{
 }
 .grid-container-home{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    justify-content:space-around;
+    width: 100%;
 }
 .row-home{
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
 }
+.col-5 {
+    justify-content:left;
+}
+.row-items{
+    display: flex;
+}
+.video{
+    height: 80%;
+    width: 80%; 
+    align-content: center;
+    margin-left: 44px;
+    margin-top: 60x;
+}
+.redes{
+    display: flex;
+    align-content: center;
+    h2{
+        text-align: center;
+    }
+}
+.row-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+    

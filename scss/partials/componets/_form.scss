@@ -25,6 +25,13 @@
     padding: 20px;
     }
 .maps iframe{
-    height: 450px;
+    height: 400px;
     width: 90%;
+}
+h2{
+    color: map-get($colores ,none);
+    text-align: center;
+    font-size: map-get($font-sizes ,xl );
+    margin: 20px;
+
 }
