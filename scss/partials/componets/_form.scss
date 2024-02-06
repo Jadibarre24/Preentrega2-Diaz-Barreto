@@ -7,3 +7,24 @@
 .form-check-label{
     color: map-get($colores, none );
 }
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.show img {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+.show p {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    padding: 20px;
+    }
+.maps iframe{
+    height: 450px;
+    width: 90%;
+}

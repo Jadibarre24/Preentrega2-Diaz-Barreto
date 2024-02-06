@@ -28,13 +28,14 @@
     @include flex(row,space-around,center);@include into(px,px); @include into( px,px);flex-wrap: wrap
 }
 .card-item {
-    @include card(400px,px,px,);@include into (px,px,);
-    @include flex(column,center,center); background-color: map-get($colores , fondo ) ; img {
-        width: 330px;
-        height: 330px;} 
+    @include card(200px,px,px,);@include into (px,px,);
+    @include flex(column,center,left); background-color: map-get($colores , card ) ; img {
+        width: 150px ;
+        height: 150px;} 
          p{
-            width: 1fr
-            text-align center
+            width:map-get($font-sizes , s );
+            align-items: center;
+            justify-content: left
         }
  }
 
@@ -47,7 +48,15 @@
 }
 .card-item:active {
     position:initial ;
-    background-color:map-get($colores ,base );
+    background-color:map-get($colores ,card );
     display: flex;
-    width: 1fr;
+    width: 1px;
+ }
+ .recomendados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    p{
+      margin: 0%;
+    }
  }

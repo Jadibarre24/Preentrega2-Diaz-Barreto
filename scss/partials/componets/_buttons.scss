@@ -1,5 +1,9 @@
 .button{
-    @include card(120px,solid,px); .button:hover{
+    @include card(120px,solid,px);
+                color: black;
+                text-align: baseline;
+                overflow: hidden;
+     .button:hover{
         color: black;
     }
 }

@@ -1,5 +1,6 @@
 
 .container-fluid {
+    background-color: map-get($colores , nav );
     color: map-get($colores , none );
     border-radius: 5px;
     border: 1px groove rgb(179, 180, 181); 
