@@ -5,9 +5,10 @@
 }
 
 body {
-  background-color: lightslategray;
+  background-color: rgb(178, 179, 180);
 }
 
+/* netlify versel hosting para subir la pagina  */
 @media (max-width: 436px) {
   .card {
     background-color: rgb(111, 116, 116);
