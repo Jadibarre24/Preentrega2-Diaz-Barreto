@@ -1,27 +1,46 @@
-@media(max-width:436px){
+@media(max-width:536px){
     .card {
      background-color: rgb(111, 116, 116)};
     .container-fluid{
         width: 80%
-    }  .video {
+    };  .video {
      display: none;
-}
-    .logo-navbar img {
+};
+    .navbar-logo img {
         display: none};
-        p {
-        font-size: 100%;
-     } 
-     .logo-container {
-        display: block;
-     }
      body{
           flex-wrap: wrap;
-     }
+     };
      .navbar{
-          flex-wrap: wrap;
+          flex-wrap:wrap;
+          flex-direction: row;
+          justify-content: space-around;
+          width: 374px;
+     };
+     .carrusel{
+          height: 200px;
+          .carousel-inner{
+               height: 190px;
+               width: 100%; .carousel-item{
+                    height: 188px;}
+                    img{
+               height: 190px;
+          }
      }
 }
-@media( min-width:437px){
+}
+.grid-container-home{
+     flex-direction: column; .row-home{
+          flex-direction: column;
+     }; .col-4{
+          width: 100%;
+     }; .col-3-home{
+        display: flex;  
+     }; .col-5{
+          width: 100%;
+     }
+}
+@media(max-width:737px){
      .card {
      background-color: darkgray;
      }
@@ -33,9 +52,19 @@
           flex-wrap: wrap;
      } 
 }
-@media(min-width:900px){
+@media(max-width:1280px){
      .card {
      background-color: #ece2c6;}
+} .grid-container-home{
+     flex-direction: row; .row-home{
+          flex-direction: row;
+     }; .col-4{
+          width: 100%;
+     }; .col-3-home{
+        display: flex;  
+     }; .col-5{
+          width: 100%;
+     }
 }
 
 @media(min-width:501px){
