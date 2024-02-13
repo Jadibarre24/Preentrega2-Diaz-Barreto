@@ -1,21 +1,27 @@
-.carousel-inner img { 
-    display: flex;
-    width: 100%;
-    flex-direction:column;
-    align-items: center;}    
+.carousel-inner{
+    width: 1000px;
+}
 .carousel-caption {
     position:initial ;
-    background-color: darkgray;
-    display: inline-block;
-    width: 1fr;
+    background-color: map-get($colores , fondo );
+    width: 1fr; p{
+        color: map-get($colores,none);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 }
-.carousel-item{
-    height:100%;
-}
+.carousel-item img {
+        height: 350px;
+        width: 100%;
+    }
 .carrusel {
-    display: flex;
-    width: 100%;
-    flex-direction:column;
-    align-items: center;
-    background-color: black;
+        background-color: map-get($colores, fondo );
+}
+.carousel-control-next-icon{
+    color: map-get($colores , alert );
+}
+.carousel-control-prev-icon{
+    color: map-get($colores , alert );
+
 }

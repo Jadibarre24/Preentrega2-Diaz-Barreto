@@ -1,7 +1,6 @@
 .grid-container{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-around;
@@ -9,7 +8,6 @@
 .row {
     display: flex;
     flex-direction: row-reverse;
-    margin: 34px;;
     width: 100%;
     justify-content:start;
 }
@@ -17,7 +15,7 @@
 a img{
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 50px;
     vertical-align: super;
     margin-top: 35px;
 }
@@ -60,17 +58,12 @@ a img{
     margin-left: 44px;
     margin-top: 60x;
 }
-.redes{
-    display: flex;
-    align-content: center;
-    h2{
-        text-align: center;
-    }
-}
 .row-redes{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    margin-top: 34px;
 }
-    
+.col-2 img{
+    height: 250px;
+}

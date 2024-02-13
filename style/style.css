@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(178, 179, 180);
+  background-color: rgb(78, 86, 94);
 }
 
 /* netlify versel hosting para subir la pagina  */
@@ -237,30 +237,37 @@ footer p {
   text-align: center;
 }
 
-.carousel-inner img {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
+.carousel-inner {
+  width: 1000px;
 }
 
 .carousel-caption {
   position: initial;
-  background-color: darkgray;
-  display: inline-block;
+  background-color: rgb(78, 86, 94);
   width: 1fr;
 }
+.carousel-caption p {
+  color: #ece2c6;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
-.carousel-item {
-  height: 100%;
+.carousel-item img {
+  height: 350px;
+  width: 100%;
 }
 
 .carrusel {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
+  background-color: rgb(78, 86, 94);
+}
+
+.carousel-control-next-icon {
+  color: #bdf15c;
+}
+
+.carousel-control-prev-icon {
+  color: #bdf15c;
 }
 
 .accordion {
@@ -324,7 +331,6 @@ h2 {
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   flex-flow: row wrap;
   width: 100%;
   justify-content: space-around;
@@ -333,7 +339,6 @@ h2 {
 .row {
   display: flex;
   flex-direction: row-reverse;
-  margin: 34px;
   width: 100%;
   justify-content: start;
 }
@@ -341,7 +346,7 @@ h2 {
 a img {
   display: flex;
   flex-direction: column;
-  height: 100px;
+  height: 50px;
   vertical-align: super;
   margin-top: 35px;
 }
@@ -391,18 +396,15 @@ a img {
   margin-top: 60x;
 }
 
-.redes {
-  display: flex;
-  align-content: center;
-}
-.redes h2 {
-  text-align: center;
-}
-
 .row-redes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 34px;
+}
+
+.col-2 img {
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
