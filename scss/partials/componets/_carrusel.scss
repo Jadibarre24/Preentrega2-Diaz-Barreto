@@ -11,10 +11,7 @@
         white-space: nowrap;
     }
 }
-.carousel-item img {
-        height: 350px;
-        width: 100%;
-    }
+
 .carrusel {
         background-color: map-get($colores, fondo );
 }
@@ -25,3 +22,7 @@
     color: map-get($colores , alert );
 
 }
+.carousel-item img {
+        height: 350px;
+        width: 100%;
+    }

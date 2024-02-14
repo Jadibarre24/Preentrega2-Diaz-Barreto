@@ -7,22 +7,13 @@
 }
 .row {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     width: 100%;
     justify-content:start;
 }
-
-a img{
+.col-3-home img {
     display: flex;
-    flex-direction: column;
-    height: 50px;
-    vertical-align: super;
-    margin-top: 35px;
-}
-.col-3 img {
-    height: 250px;
-    display: flex;
-    align-items: center;
+    align-items:start;
     margin: 30px;
     margin-top: 80px;
 }
@@ -60,10 +51,15 @@ a img{
 }
 .row-redes{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 34px;
 }
 .col-2 img{
-    height: 250px;
+    height: 50px;
+    flex-direction: row;
+}
+.redes{
+    text-overflow: ellipsis;
+    text-align:justify
 }

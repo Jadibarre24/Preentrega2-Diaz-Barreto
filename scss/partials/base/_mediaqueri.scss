@@ -12,9 +12,6 @@
           flex-wrap: wrap;
      };
      .navbar{
-          flex-wrap:wrap;
-          flex-direction: row;
-          justify-content: space-around;
           width: 374px;
      };
      .carrusel{
@@ -28,34 +25,83 @@
           }
      }
 }
-}
 .grid-container-home{
      flex-direction: column; .row-home{
           flex-direction: column;
-     }; .col-4{
+     }; .col-4-maps {
           width: 100%;
      }; .col-3-home{
         display: flex;  
-     }; .col-5{
+     }; .col-5-form{
           width: 100%;
      }
 }
+// productos
+.container-grid {
+     display: flex;
+     flex-direction: column;
+} #accordion{
+     width: 100%;
+}
+.col-8{
+     display: none;
+}
+#redes {
+     .col-6 {
+          width: 100%;
+          align-items: center;
+     }
+}
+#maps {
+     .maps {
+          width: 100%;
+     }
+}
+// formulario
+.grid-container{
+     display: flex;
+     flex-wrap: wrap;
+}.row-redes{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+}
+.col-img-form {
+     width: 100%;
+
+}
+
+#redes-base{
+     display: flex;
+     flex-direction: column;
+}a img {
+     flex-direction: column;
+     height: 50px;
+     margin: 10px;
+} 
+.col-img-form {
+     img {
+     height: 150px;
+     width: 100%;
+}
+}
+.show {
+     img{
+          width: 100%;
+     }
+}
+}
+
+
 @media(max-width:737px){
      .card {
      background-color: darkgray;
      }
-     .recomendados{
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: row;
-     } .grid-container{
-          flex-wrap: wrap;
-     } 
 }
 @media(max-width:1280px){
      .card {
      background-color: #ece2c6;}
-} .grid-container-home{
+ .grid-container-home{
      flex-direction: row; .row-home{
           flex-direction: row;
      }; .col-4{
@@ -65,17 +111,33 @@
      }; .col-5{
           width: 100%;
      }
-}
-
-@media(min-width:501px){
-     .card-container {
+} .recomendados{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+} .grid-container{
+     flex-wrap: wrap;
+}  .card-container {
      display: inline-block;
      }
      .recomendados{
           display: flex;
           flex-wrap: wrap;
           flex-direction: row;
-     }     
+     }  
+#redes-base{
+     display: flex;
+     flex-direction: row;
+}a img {
+     flex-direction: column;
+     height: 150px;
+     margin: 10px;
+}   
+#maps {
+     .maps {
+          width: 100%;
+     } 
+}
 }
 @media ( hover:hover ){
      .button:hover{
