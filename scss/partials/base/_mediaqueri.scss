@@ -1,8 +1,15 @@
 @media(max-width:536px){
-    .card {
+    body {
+    background-image:url("../image/fondo.jpg");
+    background-position: initial;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+     .card {
      background-color: rgb(111, 116, 116)};
     .container-fluid{
-        width: 80%
+        width: 100%
     };  .video {
      display: none;
 };
@@ -35,6 +42,23 @@
      }; .col-5-form{
           width: 100%;
      }
+}
+// nosotros
+.eventos{
+     flex-direction: column;
+     flex-wrap: wrap;
+     .col-6{
+          width: 100%;
+     }
+     .card-us{
+          width: 100%;
+     }
+     .caption{
+          background-color: #ffff;
+     }
+}
+.col-3-us {
+     height: 80px;
 }
 // productos
 .container-grid {

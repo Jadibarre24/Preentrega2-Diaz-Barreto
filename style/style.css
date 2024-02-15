@@ -10,11 +10,18 @@ body {
 
 /* netlify versel hosting para subir la pagina  */
 @media (max-width: 536px) {
+  body {
+    background-image: url("../image/fondo.jpg");
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   .card {
     background-color: rgb(111, 116, 116);
   }
   .container-fluid {
-    width: 80%;
+    width: 100%;
   }
   .video {
     display: none;
@@ -55,6 +62,22 @@ body {
   }
   .grid-container-home .col-5-form {
     width: 100%;
+  }
+  .eventos {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .eventos .col-6 {
+    width: 100%;
+  }
+  .eventos .card-us {
+    width: 100%;
+  }
+  .eventos .caption {
+    background-color: white;
+  }
+  .col-3-us {
+    height: 80px;
   }
   .container-grid {
     display: flex;
@@ -272,6 +295,26 @@ body {
 }
 .recomendados p {
   margin: 0%;
+}
+
+.eventos {
+  display: flex;
+  place-items: center;
+  padding: 10px;
+  margin: 24px;
+}
+.eventos .card-us {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.eventos .card-us img {
+  height: 320px;
+  width: 100%;
+}
+.eventos .caption {
+  margin: 16px;
+  padding: 16px;
 }
 
 .container-fluid {
