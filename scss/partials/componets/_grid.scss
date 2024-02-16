@@ -1,15 +1,18 @@
 .grid-container{
     display: flex;
     flex-direction: column;
-    flex-flow: row wrap;
     width: 100%;
     justify-content: space-around;
+    margin: $default;
+    padding: $default;
 }
 .row {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
     justify-content:start;
+    margin: $default;
+    padding: $default;
 }
 .col-3-home img {
     display: flex;
@@ -18,6 +21,8 @@
     margin-top: 80px;
 }
 .col {
+    margin: $default;
+    padding: $default;
     justify-items: center;
 }
 .grid-container-home{
@@ -33,8 +38,6 @@
     align-content: stretch;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
-
 }
 .col-5 {
     justify-content:left;

@@ -1,16 +1,21 @@
 
+.navbar {
+    flex-wrap:wrap;
+}
 .container-fluid {
     background-color: map-get($colores , nav );
     color: map-get($colores , none );
     border-radius: 5px;
     border: 1px groove rgb(179, 180, 181); 
     .navbar-toggler{
+        flex-basis: 20%;
         background-color: map-get($colores, none);
     };
     .navbar-toggler-icon{
         color: map-get($colores , black );
     }
-    .navbar-logo {   
+    .navbar-logo {  
+        flex-basis: 70%; 
         img {
     width: 40px;height: 40px
 };      p{

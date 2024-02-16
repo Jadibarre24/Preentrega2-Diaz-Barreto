@@ -1,10 +1,11 @@
-@media(max-width:536px){
-    body {
+@media(max-width:836px){
+     body {
     background-image:url("../image/fondo.jpg");
     background-position: initial;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
 }
      .card {
      background-color: rgb(111, 116, 116)};
@@ -19,7 +20,7 @@
           flex-wrap: wrap;
      };
      .navbar{
-          width: 374px;
+          width: 100%;
      };
      .carrusel{
           height: 200px;
@@ -94,7 +95,9 @@
      width: 100%;
 
 }
-
+.row-home{
+     flex-wrap: wrap;
+}
 #redes-base{
      display: flex;
      flex-direction: column;
@@ -123,12 +126,14 @@
      }
 }
 @media(max-width:1280px){
+     .carrusel{
+     width: 100vw;
+     }
      .card {
      background-color: #ece2c6;}
  .grid-container-home{
-     flex-direction: row; .row-home{
-          flex-direction: row;
-     }; .col-4{
+     flex-direction: row;
+      .col-4{
           width: 100%;
      }; .col-3-home{
         display: flex;  
@@ -152,10 +157,15 @@
 #redes-base{
      display: flex;
      flex-direction: row;
-}a img {
-     flex-direction: column;
-     height: 150px;
-     margin: 10px;
+     height: 300px;
+     img{
+          height: 90px;
+     }
+}
+.col-3-home{
+     img{
+          height: 90px;
+     }
 }   
 #maps {
      .maps {
