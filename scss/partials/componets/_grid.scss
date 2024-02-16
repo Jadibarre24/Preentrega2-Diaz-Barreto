@@ -2,17 +2,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-around;
-    margin: $default;
-    padding: $default;
+    justify-content: center;
+    align-items: center;
 }
 .row {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-    justify-content:start;
-    margin: $default;
-    padding: $default;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
 }
 .col-3-home img {
     display: flex;
@@ -37,7 +36,6 @@
     margin: 20px;
     align-content: stretch;
     justify-content: space-between;
-    align-items: flex-start;
 }
 .col-5 {
     justify-content:left;

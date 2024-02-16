@@ -20,7 +20,7 @@
           flex-wrap: wrap;
      };
      .navbar{
-          width: 100%;
+          width: 100vw;
      };
      .carrusel{
           height: 200px;
@@ -39,10 +39,16 @@
      }; .col-4-maps {
           width: 100%;
      }; .col-3-home{
-        display: flex;  
+        display: block; 
+        width: 80vw; 
      }; .col-5-form{
           width: 100%;
      }
+}
+.recomendados{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
 }
 // nosotros
 .eventos{
@@ -125,7 +131,7 @@
      background-color: darkgray;
      }
 }
-@media(max-width:1280px){
+@media(min-width:837px){
      .carrusel{
      width: 100vw;
      }
@@ -140,20 +146,17 @@
      }; .col-5{
           width: 100%;
      }
-} .recomendados{
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
+} 
 } .grid-container{
      flex-wrap: wrap;
 }  .card-container {
      display: inline-block;
      }
-     .recomendados{
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: row;
-     }  
+.recomendados{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+}  
 #redes-base{
      display: flex;
      flex-direction: row;
@@ -171,7 +174,6 @@
      .maps {
           width: 100%;
      } 
-}
 }
 @media ( hover:hover ){
      .button:hover{
