@@ -14,8 +14,6 @@
     };  .video {
      display: none;
 };
-    .navbar-logo img {
-        display: none};
      body{
           flex-wrap: wrap;
      };
@@ -132,7 +130,16 @@
      }
 }
 @media(min-width:837px){
-     .carrusel{
+.navbar{
+     width: 100vw;
+     ; 
+     .nav{
+          padding: 0 16px;
+          align-content: end;
+     }
+}
+}
+.carrusel{
      width: 100vw;
      }
      .card {
@@ -147,7 +154,7 @@
           width: 100%;
      }
 } 
-} .grid-container{
+ .grid-container{
      flex-wrap: wrap;
 }  .card-container {
      display: inline-block;
@@ -175,10 +182,14 @@
           width: 100%;
      } 
 }
-@media ( hover:hover ){
+@media( hover ){
      .button:hover{
-          color: gray;
+          color: black;
      background-color:#ece2c6
+     }; 
+     .nav a :hover{
+          color: black;
+          background-color: #ece2c6;
      }
      .col-1 a{
           background-color:#ece2c6
