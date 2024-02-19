@@ -344,9 +344,8 @@ body {
   margin: 16px;
   padding: 16px;
 }
-
-.navbar {
-  flex-wrap: wrap;
+.eventos p {
+  font-size: 24px;
 }
 
 .container-fluid {
@@ -356,20 +355,12 @@ body {
   border: 1px groove rgb(179, 180, 181);
 }
 .container-fluid .navbar-toggler {
-  flex-basis: 20%;
   background-color: #ece2c6;
 }
 .container-fluid .navbar-toggler-icon {
   color: rgba(0, 0, 0, 0);
 }
-.container-fluid .navbar-logo {
-  flex-basis: 70%;
-}
-.container-fluid .navbar-logo img {
-  width: 40px;
-  height: 40px;
-}
-.container-fluid .navbar-logo p {
+.container-fluid p {
   color: #ece2c6;
   text-align: center;
   display: inline-block;
@@ -377,6 +368,9 @@ body {
   font-weight: bolder;
   text-align: center;
   font-size: 32px;
+}
+.container-fluid #navbarNav {
+  justify-content: flex-end;
 }
 
 a.nav {
@@ -410,6 +404,7 @@ footer p {
 
 .carousel-inner {
   width: 100vw;
+  background-color: aliceblue;
 }
 
 .carousel-caption {
@@ -426,6 +421,7 @@ footer p {
 
 .carrusel {
   background-color: rgb(78, 86, 94);
+  width: 100vw;
 }
 
 .carousel-control-next-icon {
@@ -436,9 +432,13 @@ footer p {
   color: #bdf15c;
 }
 
+.carousel-item {
+  align-items: center;
+  align-content: center;
+}
 .carousel-item img {
-  height: 350px;
-  width: 100%;
+  height: 450px;
+  width: 100vw;
 }
 
 .accordion {

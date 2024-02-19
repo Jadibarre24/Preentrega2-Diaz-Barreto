@@ -1,5 +1,6 @@
 .carousel-inner{
     width: 100vw;
+    background-color: aliceblue;    
 }
 .carousel-caption {
     position:initial ;
@@ -14,6 +15,7 @@
 
 .carrusel {
         background-color: map-get($colores, fondo );
+        width: 100vw;
 }
 .carousel-control-next-icon{
     color: map-get($colores , alert );
@@ -22,7 +24,11 @@
     color: map-get($colores , alert );
 
 }
-.carousel-item img {
-        height: 350px;
-        width: 100%;
+.carousel-item{
+    align-items: center;
+    align-content: center
+;img {
+        height: 450px;
+        width: 100vw;
     }
+}
