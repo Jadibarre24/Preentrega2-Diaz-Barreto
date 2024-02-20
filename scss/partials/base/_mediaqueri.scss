@@ -30,6 +30,9 @@
                height: 190px;
           }
      }
+};
+.carousel-caption{
+     display: none;
 }
 .grid-container-home{
      flex-direction: column; .row-home{
@@ -152,6 +155,9 @@
         display: flex;  
      }; .col-5{
           width: 100%;
+     } .row-home{
+          display:flex;
+          flex-direction: column;
      }
 } 
  .grid-container{
@@ -169,12 +175,12 @@
      flex-direction: row;
      height: 300px;
      img{
-          height: 90px;
+          height: 15%;
      }
 }
 .col-3-home{
      img{
-          height: 90px;
+          height: 69px;
      }
 }   
 #maps {

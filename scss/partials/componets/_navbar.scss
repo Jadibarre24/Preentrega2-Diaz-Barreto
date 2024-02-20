@@ -14,7 +14,6 @@
     color: map-get($colores , none );
     text-align: center;
     display: inline-block;
-    margin: 10px;
     font-weight: bolder;
     text-align: center;
     font-size: map-get($font-sizes , xl );
@@ -38,4 +37,5 @@ h1 {
     font-weight: bolder;
     margin: 35px;
     text-align: center;
+    width: 80vw;
 }
