@@ -1,34 +1,55 @@
+#first {
+    height: 20%;
+    display: block;
+    align-content: center;
+}
+.carrusel {
+        align-content: center;
+        background-color: map-get($colores, fondo );
+        width: 70vw;
+        height: 40vw;
+}
 .carousel-inner{
-    width: 100vw;
+    display: block;
+    width: 80vw;
     background-color: aliceblue;    
+}
+.carousel-item{
+    img {
+        display: block;
+        align-content: center;
+        height:30dvh;
+        width: 75vw;
+    }
 }
 .carousel-caption {
     position:initial ;
     background-color: map-get($colores , fondo );
-    width: 1fr; p{
+    width: 70vw; p{
         color: map-get($colores,none);
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
     }
 }
+// .carousel-control-next{
+//     color: map-get($colores , alert );
+// }
+// .carousel-control-prev{
+//     color: map-get($colores , alert );
 
-.carrusel {
-        background-color: map-get($colores, fondo );
-        width: 100vw;
-}
-.carousel-control-next-icon{
-    color: map-get($colores , alert );
-}
-.carousel-control-prev-icon{
-    color: map-get($colores , alert );
-
-}
-.carousel-item{
-    align-items: center;
-    align-content: center
-;img {
-        height: 450px;
-        width: 100vw;
-    }
-}
+// }
+// .test{
+//     .carousel-item{
+//         background-color: aqua;
+//         width: 40vw;
+//         align-items: center;
+//     }
+//     background-color: black;
+//     width: 50%;
+//     align-items: center;
+//     img{
+//         height: 40vw;
+//         width: 80vw;
+//     }
+// }

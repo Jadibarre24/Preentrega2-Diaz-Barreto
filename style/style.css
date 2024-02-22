@@ -414,43 +414,42 @@ footer p {
   text-align: center;
 }
 
+#first {
+  height: 20%;
+  display: block;
+  align-content: center;
+}
+
+.carrusel {
+  align-content: center;
+  background-color: rgb(78, 86, 94);
+  width: 70vw;
+  height: 40vw;
+}
+
 .carousel-inner {
-  width: 100vw;
+  display: block;
+  width: 80vw;
   background-color: aliceblue;
+}
+
+.carousel-item img {
+  display: block;
+  align-content: center;
+  height: 30dvh;
+  width: 75vw;
 }
 
 .carousel-caption {
   position: initial;
   background-color: rgb(78, 86, 94);
-  width: 1fr;
+  width: 70vw;
 }
 .carousel-caption p {
   color: #ece2c6;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-
-.carrusel {
-  background-color: rgb(78, 86, 94);
-  width: 100vw;
-}
-
-.carousel-control-next-icon {
-  color: #bdf15c;
-}
-
-.carousel-control-prev-icon {
-  color: #bdf15c;
-}
-
-.carousel-item {
-  align-items: center;
-  align-content: center;
-}
-.carousel-item img {
-  height: 450px;
-  width: 100vw;
 }
 
 .accordion {
@@ -536,15 +535,16 @@ h2 {
 
 .grid-container-home {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   width: 100vw;
 }
 
 .row-home {
   display: flex;
-  align-content: stretch;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 #logos {

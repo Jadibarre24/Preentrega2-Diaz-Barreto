@@ -24,14 +24,15 @@
 }
 .grid-container-home{
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
     width: 100vw;
 }
 .row-home{
     display:flex;
-    align-content: stretch;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 #logos {
     height: 80%;
