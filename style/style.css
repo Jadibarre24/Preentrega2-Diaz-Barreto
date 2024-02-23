@@ -12,6 +12,30 @@ body {
   background-color: rgb(78, 86, 94);
 }
 
+h1 {
+  overflow: hidden;
+}
+
+h2 {
+  overflow: hidden;
+}
+
+h3 {
+  overflow: hidden;
+}
+
+h4 {
+  overflow: hidden;
+}
+
+h5 {
+  overflow: hidden;
+}
+
+h6 {
+  overflow: hidden;
+}
+
 /* netlify versel hosting para subir la pagina  */
 @media (max-width: 836px) {
   body {
@@ -35,6 +59,7 @@ body {
     flex-wrap: wrap;
   }
   .navbar {
+    background-color: beige;
     width: 100vw;
   }
   .carrusel {
@@ -437,19 +462,26 @@ footer p {
   display: block;
   align-content: center;
   height: 30dvh;
-  width: 75vw;
+  width: 70vw;
 }
 
 .carousel-caption {
   position: initial;
   background-color: rgb(78, 86, 94);
   width: 70vw;
+  overflow: hidden;
 }
 .carousel-caption p {
   color: #ece2c6;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+
+#logos {
+  height: 20%;
+  display: block;
+  align-content: center;
 }
 
 .accordion {
@@ -545,6 +577,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 #logos {

@@ -19,18 +19,25 @@
         display: block;
         align-content: center;
         height:30dvh;
-        width: 75vw;
+        width: 70vw;
     }
 }
 .carousel-caption {
     position:initial ;
     background-color: map-get($colores , fondo );
-    width: 70vw; p{
+    width: 70vw;
+    overflow: hidden;
+     p{
         color: map-get($colores,none);
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
     }
+}
+#logos {
+    height: 20%;
+    display: block;
+    align-content: center;
 }
 // .carousel-control-next{
 //     color: map-get($colores , alert );
